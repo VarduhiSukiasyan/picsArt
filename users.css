@@ -1,0 +1,49 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+img {
+    margin-left: 75px;
+    margin-right: 75px;
+    justify-content: flex-end;
+    width: 160px;
+    border-radius: 100px;
+    text-align: center;
+    display: block;
+}
+h1{
+    text-align: center;
+}
+
+#users {
+    display: inline-block;
+}
+.userElement {
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    height: 300px;
+}
+
+#follower {
+    text-align: center;
+    display: none;
+    width: 1200px;
+    height: 400px;
+    overflow-y: scroll;
+    margin: 0 auto;
+    border-radius: 15px;
+    position: fixed;
+    left: 30px;
+    background: #e7e7e7;
+    box-shadow: 0px 0px 0px #e7e7e7;
+}
+
+#cancelIcon {
+    width: 30px;
+    height: 30px;
+    margin-left: 1150px;
+    cursor: pointer;
+}
+
+ 
